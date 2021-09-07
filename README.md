@@ -34,7 +34,7 @@ To acces this project, you need to clone it using these steps;
 3. Git
 
 ### Live Site
-Go to  [live](https://robbingit.github.io/Akannamegenerator/) site.
+Go to  [live](https://robbingit.github.io/delanistudiodesign/) site.
 
 ### Support
 For support reach me via Email(robbingithimbo@gmail.com)
