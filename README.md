@@ -36,9 +36,6 @@ To acces this project, you need to clone it using these steps;
 ### Live Site
 Go to  [live](https://robbingit.github.io/Akannamegenerator/) site.
 
-### Design
-Go to [Design] (https://www.figma.com/file/BQbHJHu4vy4G1J7TuVve4A/akanenamegenerator)
-
 ### Support
 For support reach me via Email(robbingithimbo@gmail.com)
 
