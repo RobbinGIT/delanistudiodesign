@@ -1,4 +1,4 @@
-# Akan Names And bith day generator -website
+# Delani -website
 
 ## Author
 Robbin Mwangi Githimbo
