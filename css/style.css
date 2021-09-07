@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+    width: 90%;
+    margin: auto;
+}
+.banner{
+    background-image:url(../assets/backgrounds/h_img.jpg);
+    background-size: cover;
+    height: 120vh;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+.centered {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .logo img{
+      padding: 20px;
+  }
+  .mouse img{
+      margin-top: 30%;
+  }
+
+  /* about us */
+  .para{
+    font-size: 11px;
+  }
+
+  /* services */
+
+  .banner2{
+    background-image:url(../assets/backgrounds/s_image.jpg);
+    background-size: cover;
+    height: 40vh;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+.centered2 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .marketing{
+    width: 80%;
+    margin: auto;
+  }
+
+  .album{
+    width: 70%;
+    margin: auto;
+  }
+/* contact */
+  .banner3{
+    background-image:url(../assets/backgrounds/c_image.jpg);
+    background-size: cover;
+    height: 70vh;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+  }
+  .inputs{
+      margin-left: 20%;
+  }
+  .textbox textarea{
+    
+    width: %;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+  }
+  /*------------social media section-----*/
+ #social-media{
+    padding: 50px 0;
+}
+.social-icons img{
+    width: 50px;
+    transition: 0.5s;
+}
+.social-icons a:hover img{
+   transform: translateY(-10px);
+}
