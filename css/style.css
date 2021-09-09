@@ -58,6 +58,45 @@ body{
 
 /* images text appears on hover on hover */
 
+.contain {
+  position: relative;
+  display: inline-block;
+}
+
+.image {
+  display: block;
+
+}
+
+.textone {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-0%, -50%);
+  font-family: sans-serif;
+}
+
+.overlay {
+  position: absolute;
+  opacity: 0;
+  transition:all .3s ease;
+}
+.contain:hover .overlay,.contain:hover .overlayFade {
+  opacity: 1;
+}
+
+.overlayBottom{
+  width: 100%;
+  height: 0;
+  bottom:0;
+  left:0;
+  background-color: white;
+}
+.contain:hover .overlayTop ,.contain:hover .overlayBottom {
+  height: 100%;
+}
 
   /* album section */
 
