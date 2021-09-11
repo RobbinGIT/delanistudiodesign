@@ -56,47 +56,34 @@ body{
     text-transform: uppercase;
   }
 
-/* images text appears on hover on hover */
-
-.contain {
-  position: relative;
-  display: inline-block;
-}
-
-.image {
-  display: block;
-
-}
-
-.textone {
-  color: black;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 10%;
-  transform: translate(-0%, -50%);
-  font-family: sans-serif;
-}
-
-.overlay {
-  position: absolute;
-  opacity: 0;
-  transition:all .3s ease;
-}
-.contain:hover .overlay,.contain:hover .overlayFade {
-  opacity: 1;
-}
-
-.overlayBottom{
+/*     what we do section */
+.whatWeDo {
   width: 100%;
-  height: 0;
-  bottom:0;
-  left:0;
-  background-color: white;
+  padding-top: 5%;
+  padding-bottom: 1%;
 }
-.contain:hover .overlayTop ,.contain:hover .overlayBottom {
+
+#dev_text, #design_text, #product_text {
+  display: none;
+}
+
+.row {
+  margin-bottom: 10px;
+}
+
+.col-md-12 {
   height: 100%;
+  width: 100%;
+  padding: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
 }
+
+.col-md-12 h3 {
+  font-weight: bold;
+}
+
 
   /* album section */
 
@@ -105,7 +92,8 @@ body{
     margin: auto;
   }
 
-/* images text pop on hover */
+
+ /*images text pop on hover */
 
 .container {
   position: relative;
@@ -184,16 +172,42 @@ body{
   .inputs{
       margin-left: 20%;
   }
-  .textbox textarea{
-    height: 150px;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    background-color: #f8f8f8;
-    font-size: 16px;
-    resize: none;
+  
+/* style placeholder */
+  .form-control::-webkit-input-placeholder {
+    color: white;
+}
+/* email input box */
+  #mce-EMAIL{
+    background: transparent;
+    color: white;
+    border: solid 2px white; 
+    width: 295px;
   }
+/* name input box */
+  #mce-NAME{
+    background: transparent;
+    color: white;
+    border: solid 2px white;
+    width: 295px;
+  }
+/* message input box */
+  #message{
+    background: transparent;
+    color: white;
+    border: solid 2px white;
+    height: 200px; 
+    width: 605px; 
+    margin: auto;
+    margin-right: 275px;      
+  }
+
+  #button {
+    text-align: left;
+    margin-left: 45%;
+  }
+
+
   /*------------social media section-----*/
  #social-media{
     padding: 50px 0;
@@ -205,3 +219,48 @@ body{
 .social-icons a:hover img{
    transform: translateY(-10px);
 }
+
+
+
+
+/* images text appears on hover on hover 
+
+.contain {
+  position: relative;
+  display: inline-block;
+}
+
+.image {
+  display: block;
+
+}
+
+.textone {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-0%, -50%);
+  font-family: sans-serif;
+}
+
+.overlay {
+  position: absolute;
+  opacity: 0;
+  transition:all .3s ease;
+}
+.contain:hover .overlay,.contain:hover .overlayFade {
+  opacity: 1;
+}
+
+.overlayBottom{
+  width: 100%;
+  height: 0;
+  bottom:0;
+  left:0;
+  background-color: white;
+}
+.contain:hover .overlayTop ,.contain:hover .overlayBottom {
+  height: 100%;
+}    */
