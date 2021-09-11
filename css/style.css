@@ -57,13 +57,16 @@ body{
   }
 
 /*     what we do section */
-.whatWeDo {
+.dedevpro {
   width: 100%;
-  padding-top: 5%;
-  padding-bottom: 1%;
+  padding-top: 3em;
+}
+.dedevpro >h3{
+  font-weight: 700;
+  font-size: 24px;
 }
 
-#dev_text, #design_text, #product_text {
+#detailsofdesign, #detailsofdevelopment, #detailsofproduct{
   display: none;
 }
 
@@ -74,88 +77,48 @@ body{
 .col-md-12 {
   height: 100%;
   width: 100%;
-  padding: 5px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin-bottom: 10px;
+  font-size: 12px;
 }
 
-.col-md-12 h3 {
+.col-md-12 h6 {
   font-weight: bold;
 }
 
-
   /* album section */
-
-  .album{
+.album{
     width: 70%;
     margin: auto;
   }
 
+.album >h3{
+  font-weight: 700;
+  font-size: 24px;
+}
 
- /*images text pop on hover */
 
-.container {
+ /*the portfolio images text pop on hover */
+#projectImg {
   position: relative;
 }
-
-.image {
-  opacity: 1;
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
-
-}
-.insidetext {
-  transition: .5s ease;
-  opacity: 0;
+.overlay {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
-
-.container:hover .image {
-  opacity: 0.6;
-}
-
-.container:hover .insidetext{
-  opacity: 0.6;
-  background:  rgb(12, 11, 10);
-}
-
-.text{
+  color: white;
+  font-size: 20pt;
+  font-weight: bold;
   border: 3px solid white;
   width: 150px;
   height: 120px;
-  color: white;
-  font-size: 20px;
-  font-weight: bold;
+  opacity: 0.6;
+  background: rgb(12, 11, 10);
   text-align: left;
   text-transform: uppercase;
 }
 
-.textoutside {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 43%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
-
-.textoutside{
-  width: 180px;
-  height: 148px;
-}
-
-.container:hover .textoutside{
-  opacity: 0.6;
-  background:  rgb(12, 11, 10);
+.text {
+  display: none;
 }
 
 
@@ -177,25 +140,26 @@ body{
   .form-control::-webkit-input-placeholder {
     color: white;
 }
-/* email input box */
-  #mce-EMAIL{
-    background: transparent;
-    color: white;
-    border: solid 2px white; 
-    width: 295px;
-  }
 /* name input box */
-  #mce-NAME{
+#nameinputbox{
+  background: transparent;
+  color: white;
+  border: solid 1px #fff;
+  width: 295px;
+}
+/* email input box */
+  #emailinputbox{
     background: transparent;
     color: white;
-    border: solid 2px white;
+    border: solid 1px #fff; 
     width: 295px;
   }
+
 /* message input box */
-  #message{
+  #messageinputbox{
     background: transparent;
     color: white;
-    border: solid 2px white;
+    border: solid 1px #fff;
     height: 200px; 
     width: 605px; 
     margin: auto;
@@ -206,7 +170,6 @@ body{
     text-align: left;
     margin-left: 45%;
   }
-
 
   /*------------social media section-----*/
  #social-media{
@@ -219,48 +182,3 @@ body{
 .social-icons a:hover img{
    transform: translateY(-10px);
 }
-
-
-
-
-/* images text appears on hover on hover 
-
-.contain {
-  position: relative;
-  display: inline-block;
-}
-
-.image {
-  display: block;
-
-}
-
-.textone {
-  color: black;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 10%;
-  transform: translate(-0%, -50%);
-  font-family: sans-serif;
-}
-
-.overlay {
-  position: absolute;
-  opacity: 0;
-  transition:all .3s ease;
-}
-.contain:hover .overlay,.contain:hover .overlayFade {
-  opacity: 1;
-}
-
-.overlayBottom{
-  width: 100%;
-  height: 0;
-  bottom:0;
-  left:0;
-  background-color: white;
-}
-.contain:hover .overlayTop ,.contain:hover .overlayBottom {
-  height: 100%;
-}    */
