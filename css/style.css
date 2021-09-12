@@ -98,9 +98,7 @@ body{
 
 
  /*the portfolio images text pop on hover */
-#workPortfolioimg {
-  position: relative;
-}
+
 .textover {
   position: absolute;
   top: 50%;
@@ -113,7 +111,7 @@ body{
   width: 150px;
   height: 120px;
   opacity: 0.6;
-  background: rgb(12, 11, 10);
+  background: rgb(54, 52, 49);
   text-align: left;
   text-transform: uppercase;
 }
