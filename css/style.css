@@ -136,10 +136,7 @@ body{
   }
   
 
-/* style placeholder */
-  .form-control::-webkit-input-placeholder {
-    color: white;
-}
+
 /* name input box */
 #nameinputbox{
   background: transparent;
@@ -154,7 +151,10 @@ body{
     border: solid 1px #fff; 
     width: 295px;
   }
-
+/* adding color to the place hoders, name and email */
+.form-control::-webkit-input-placeholder {
+  color: white;
+}
 /* message input box */
   #messageinputbox{
     background: transparent;
