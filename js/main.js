@@ -19,14 +19,14 @@ $(document).ready(function () {
 
    //image work 4
 $('.work4').hover(function () {
-    $(this).css("opacity", "0.6");
-    // here the removeClass() will removes one or more class names from the selected elements.
-    $('.parawork4').removeClass('paraover'); 
+    $(this).css("opacity", "0.6"); // on hover change to 0.6 opacity. 
+    $('.parawork4').removeClass('paraover'); // on hover the text is added
         }, function () {
-            $(this).css("opacity", "1");
-            $('.parawork4').addClass('paraover');
+            $(this).css("opacity", "1"); // this is the default opacity 
+            $('.parawork4').addClass('paraover'); // this will remove the text after mouse is moved out of the image
     });
-   
+       
+
 //image work 3
 $('.work3').hover(function () {
     $(this).css("opacity", "0.6");
