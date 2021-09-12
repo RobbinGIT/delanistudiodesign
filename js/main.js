@@ -18,86 +18,83 @@ $(document).ready(function () {
    //using jquery to add hover effect with text and border to each image in the poortfolio
 
    //image work 4
-$('.project1').hover(function () {
+$('.work4').hover(function () {
     $(this).css("opacity", "0.6");
-    $('.p1').removeClass('text');
-}, function () {
-    $(this).css("opacity", "1");
-    $('.p1').addClass('text');
-});
+    // here the removeClass() will removes one or more class names from the selected elements.
+    $('.parawork4').removeClass('paraover'); 
+        }, function () {
+            $(this).css("opacity", "1");
+            $('.parawork4').addClass('paraover');
+    });
    
-
-
 //image work 3
-$('.project2').hover(function () {
+$('.work3').hover(function () {
     $(this).css("opacity", "0.6");
-    $('.p2').removeClass('text');
-}, function () {
-    $(this).css("opacity", "1");
-    $('.p2').addClass('text');
-});
+    $('.parawork3').removeClass('paraover');
+        }, function () {
+            $(this).css("opacity", "1");
+            $('.parawork3').addClass('paraover');
+    });
 
 
 //image work 2
-$('.project3').hover(function () {
+$('.work2').hover(function () {
     $(this).css("opacity", "0.6");
-    $('.p3').removeClass('text');
-}, function () {
-    $(this).css("opacity", "1");
-    $('.p3').addClass('text');
-});
+    $('.parawork2').removeClass('paraover');
+        }, function () {
+            $(this).css("opacity", "1");
+            $('.parawork2').addClass('paraover');
+    });
 
 //image work 1
 
-$('.project4').hover(function () {
+$('.work1').hover(function () {
     $(this).css("opacity", "0.6");
-    $('.p4').removeClass('text');
-}, function () {
-    $(this).css("opacity", "1");
-    $('.p4').addClass('text');
-});
+    $('.parawork1').removeClass('paraover');
+        }, function () {
+            $(this).css("opacity", "1");
+            $('.parawork1').addClass('paraover');
+    });
   /// images in the second row
 //image work 5
 
-$('.project5').hover(function () {
+$('.work5').hover(function () {
     $(this).css("opacity", "0.6");
-    $('.p5').removeClass('text');
-}, function () {
-    $(this).css("opacity", "1");
-    $('.p5').addClass('text');
-});
+    $('.parawork5').removeClass('paraover');
+        }, function () {
+            $(this).css("opacity", "1");
+            $('.parawork5').addClass('paraover');
+    });
 
 
 //image work 6
-$('.project6').hover(function () {
+$('.work6').hover(function () {
     $(this).css("opacity", "0.6");
-    $('.p6').removeClass('text');
-}, function () {
-    $(this).css("opacity", "1");
-    $('.p6').addClass('text');
-});
+    $('.parawork6').removeClass('paraover');
+        }, function () {
+            $(this).css("opacity", "1");
+            $('.parawork6').addClass('paraover');
+    });
 
 //image work 7
 
-$('.project7').hover(function () {
+$('.work7').hover(function () {
     $(this).css("opacity", "0.6");
-    $('.p7').removeClass('text');
-}, function () {
-    $(this).css("opacity", "1");
-    $('.p7').addClass('text');
-});
+    $('.parawork7').removeClass('paraover');
+        }, function () {
+            $(this).css("opacity", "1");
+            $('.parawork7').addClass('paraover');
+    });
 
 //image work 8
 
-$('.project8').hover(function () {
+$('.work8').hover(function () {
     $(this).css("opacity", "0.6");
-    $('.p8').removeClass('text');
-}, function () {
-    $(this).css("opacity", "1");
-    $('.p8').addClass('text');
-});
-
-
+    $('.parawork8').removeClass('paraover');
+        }, function () {
+            $(this).css("opacity", "1");
+            $('.parawork8').addClass('paraover');
+    });
 
 
 // form validation using javascript
@@ -106,11 +103,11 @@ document.getElementById('submit').addEventListener('click', function () {
         var myMail = $("#emailinputbox").val();
         var myMessage = $("#messageinputbox").val();
         if ($("#nameinputbox").val() && $("#emailinputbox").val() && $("#messageinputbox").val()) {
-            alert("Hi " + myName + ", we have received your message. Thank you for reaching out to us.");
-        } else {
-            alert("Please fill all fields!");
-        }
-    })
-});
+            alert("Hi " + myName + ", your message is well recieved. Thank you for reaching us. Your feedback is always appreciated.");
+            } else {
+                alert("All Fileds must be filled");
+            }
+        })
+    });
 
 
