@@ -8,6 +8,18 @@ body{
     width: 90%;
     margin: auto;
 }
+
+@media screen and (min-width: 480px) {
+  body {
+    width: 120%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  body {
+    width: 100%;
+  }
+}
+
 .banner{
     background-image:url(../assets/backgrounds/h_img.jpg);
     background-size: cover;
