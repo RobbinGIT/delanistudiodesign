@@ -98,7 +98,7 @@ $('.work8').hover(function () {
 
 
 // form validation using javascript
-document.getElementById('submit').addEventListener('click', function () {
+    document.getElementById('submit').addEventListener('click', function () {
         var myName = $("#nameinputbox").val();
         var myMail = $("#emailinputbox").val();
         var myMessage = $("#messageinputbox").val();
