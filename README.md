@@ -5,7 +5,7 @@
 Robbin Mwangi Githimbo
 
 ## Description and Requirements
-This is web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. 
+Delani Photo studio is a website is a webpae where you see all the services offered, previously done project and there is also a contact form where users can fill and send a message. 
 
 The following are requirements in order to continue....
 
