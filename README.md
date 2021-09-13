@@ -1,5 +1,6 @@
 # Delani -website
 
+
 ## Author
 Robbin Mwangi Githimbo
 
@@ -32,6 +33,7 @@ To acces this project, you need to clone it using these steps;
 4. Javascript
 5. Jquery
 5. Bootstrap
+7. mail chimp API (to correct user data)
 3. Git
 
 ### Live Site
